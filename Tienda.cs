@@ -8,12 +8,12 @@ namespace Tienda
 {
     internal class Tienda:IObservable
     {
-        List<Usuario> Clientes = new List<Usuario>();
-        public void Agregar(Usuario cliente)
+        List<Cliente> Clientes = new List<Cliente>();
+        public void Agregar(Cliente cliente)
         {
             Clientes.Add(cliente);
         }
-        public void Eliminar(Usuario cliente)
+        public void Eliminar(Cliente cliente)
         {
             Clientes.Remove(cliente);
 

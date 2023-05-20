@@ -8,8 +8,8 @@ namespace Tienda
 {
     interface IObservable
     {
-        void Agregar(Usuario usuario);
-        void Eliminar(Usuario usuario);
+        void Agregar(Cliente usuario);
+        void Eliminar(Cliente usuario);
         void Notificar();
     }
 }

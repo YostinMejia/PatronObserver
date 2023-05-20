@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Tienda
 {
-    internal class Usuario: IObservador
+    internal class Cliente: IObservador
     {
         public void Notificar()
         {

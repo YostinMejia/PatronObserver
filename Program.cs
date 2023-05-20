@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Usuario usuario1 = new Usuario();
-            Usuario usuario2 = new Usuario();
-            Usuario usuario3 = new Usuario();
+            Cliente usuario1 = new Cliente();
+            Cliente usuario2 = new Cliente();
+            Cliente usuario3 = new Cliente();
 
 
             Tienda tienda = new Tienda();
